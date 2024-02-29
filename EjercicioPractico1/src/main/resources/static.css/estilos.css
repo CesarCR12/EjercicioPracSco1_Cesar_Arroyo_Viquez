@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 feb 2024, 23:26:58
+    Author     : cesar
+*/
+
+            body {
+                background-color: #ffffff;
+                font-family: Arial, sans-serif;
+            }
+            .navbar {
+                background-color: #ff6347;
+                padding: 10px;
+            }
+            .navbar-brand, .navbar-nav {
+                display: flex;
+                align-items: center;
+            }
+            .navbar-brand {
+                margin-right: auto;
+                font-size: 24px;
+                color: #ffffff;
+                background-color: #ff6347;
+                padding: 10px 20px;
+                border-radius: 5px;
+                width: 100%;
+            }
+            .navbar-nav .nav-item {
+                margin-left: 10px;
+            }
+            .navbar-nav .nav-link {
+                font-size: 18px;
+                color: #ffffff;
+                background-color: #ff6347;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            #main-header {
+                background-color: #ffffff;
+                padding: 50px 0;
+                text-align: center;
+            }
+            #main-header h1 {
+                font-size: 48px;
+                color: #000000;
+                margin-top: 20px;
+            }
+            #main-content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: #ffffff;
+                background-color: #3498db;
+                height: 500px;
+            }
+            #main-content img {
+                max-height: 100%;
+            }
+            #listadoLibros {
+                margin-top: 20px;
+            }
+            #listadoLibros ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            #listadoLibros li {
+                background-color: #ffffff;
+                border-radius: 5px;
+                margin-bottom: 20px;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .footer {
+                background-color: #ff6347;
+                color: #ffffff;
+                text-align: center;
+                padding: 20px 0;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
