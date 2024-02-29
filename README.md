@@ -1,1 +1,1 @@
-# EjercicioPracSco1_Cesar_Arroyo_Viquez
+# EjercicioPractico1_Cesar_Arroyo_Viquez
